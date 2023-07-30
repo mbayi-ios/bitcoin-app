@@ -21,6 +21,7 @@
 		CD36D4532A76894700069899 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4522A76894700069899 /* Double.swift */; };
 		CD36D4552A76950700069899 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4542A76950700069899 /* HomeViewModel.swift */; };
 		CD36D4582A76A17B00069899 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4572A76A17B00069899 /* CoinDataService.swift */; };
+		CD36D45B2A76D5DE00069899 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D45A2A76D5DE00069899 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		CD36D4522A76894700069899 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		CD36D4542A76950700069899 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CD36D4572A76A17B00069899 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		CD36D45A2A76D5DE00069899 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		CD36D4232A7656F900069899 /* BitCoin */ = {
 			isa = PBXGroup;
 			children = (
+				CD36D4592A76D5AE00069899 /* Utilities */,
 				CD36D4562A76A14100069899 /* Services */,
 				CD36D44B2A76761100069899 /* Models */,
 				CD36D43F2A766B9E00069899 /* Core */,
@@ -169,6 +172,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		CD36D4592A76D5AE00069899 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD36D45A2A76D5DE00069899 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				CD36D4252A7656F900069899 /* BitCoinApp.swift in Sources */,
 				CD36D4482A766CC700069899 /* CircleButtonView.swift in Sources */,
 				CD36D43E2A765E2D00069899 /* Color.swift in Sources */,
+				CD36D45B2A76D5DE00069899 /* NetworkingManager.swift in Sources */,
 				CD36D44A2A7670AD00069899 /* CircleButtonAnimationView.swift in Sources */,
 				CD36D4512A7684C700069899 /* PreviewProvider.swift in Sources */,
 				CD36D4532A76894700069899 /* Double.swift in Sources */,
