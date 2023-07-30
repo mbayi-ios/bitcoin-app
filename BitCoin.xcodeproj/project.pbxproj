@@ -19,6 +19,7 @@
 		CD36D44F2A76843D00069899 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D44E2A76843D00069899 /* CoinRowView.swift */; };
 		CD36D4512A7684C700069899 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4502A7684C700069899 /* PreviewProvider.swift */; };
 		CD36D4532A76894700069899 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4522A76894700069899 /* Double.swift */; };
+		CD36D4552A76950700069899 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4542A76950700069899 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CD36D44E2A76843D00069899 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		CD36D4502A7684C700069899 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		CD36D4522A76894700069899 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		CD36D4542A76950700069899 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		CD36D4422A766BC300069899 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CD36D4542A76950700069899 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD36D44F2A76843D00069899 /* CoinRowView.swift in Sources */,
+				CD36D4552A76950700069899 /* HomeViewModel.swift in Sources */,
 				CD36D4272A7656F900069899 /* ContentView.swift in Sources */,
 				CD36D4442A766BD100069899 /* HomeView.swift in Sources */,
 				CD36D4252A7656F900069899 /* BitCoinApp.swift in Sources */,
