@@ -11,6 +11,7 @@
 		CD36D4272A7656F900069899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4262A7656F900069899 /* ContentView.swift */; };
 		CD36D4292A7656F900069899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD36D4282A7656F900069899 /* Assets.xcassets */; };
 		CD36D42C2A7656F900069899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD36D42B2A7656F900069899 /* Preview Assets.xcassets */; };
+		CD36D43E2A765E2D00069899 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D43D2A765E2D00069899 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD36D4262A7656F900069899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD36D4282A7656F900069899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD36D42B2A7656F900069899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD36D43D2A765E2D00069899 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CD36D4232A7656F900069899 /* BitCoin */ = {
 			isa = PBXGroup;
 			children = (
+				CD36D43C2A765E1900069899 /* Extensions */,
 				CD36D4242A7656F900069899 /* BitCoinApp.swift */,
 				CD36D4262A7656F900069899 /* ContentView.swift */,
 				CD36D4282A7656F900069899 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CD36D42B2A7656F900069899 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD36D43C2A765E1900069899 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD36D43D2A765E2D00069899 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				CD36D4272A7656F900069899 /* ContentView.swift in Sources */,
 				CD36D4252A7656F900069899 /* BitCoinApp.swift in Sources */,
+				CD36D43E2A765E2D00069899 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +282,11 @@
 				DEVELOPMENT_TEAM = 52W5AMT5C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitCoin;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +311,11 @@
 				DEVELOPMENT_TEAM = 52W5AMT5C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitCoin;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
