@@ -23,6 +23,7 @@ struct HomeView: View {
             VStack {
                 homeHeader
                 
+                SearchBarView(searchText: $vm.searchText)
                 if !showPortfolio {
                   allCoinsList
                     .transition(.move(edge: .leading))
