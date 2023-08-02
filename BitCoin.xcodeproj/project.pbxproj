@@ -25,6 +25,7 @@
 		CD36D45E2A798AFA00069899 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D45D2A798AFA00069899 /* CoinImageView.swift */; };
 		CD36D4602A798C2200069899 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D45F2A798C2200069899 /* CoinImageService.swift */; };
 		CD36D4622A798D5B00069899 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4612A798D5B00069899 /* CoinImageViewModel.swift */; };
+		CD36D4662A7ADDB800069899 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36D4652A7ADDB800069899 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		CD36D45D2A798AFA00069899 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		CD36D45F2A798C2200069899 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		CD36D4612A798D5B00069899 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		CD36D4652A7ADDB800069899 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				CD36D45A2A76D5DE00069899 /* NetworkingManager.swift */,
+				CD36D4652A7ADDB800069899 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				CD36D44F2A76843D00069899 /* CoinRowView.swift in Sources */,
 				CD36D4552A76950700069899 /* HomeViewModel.swift in Sources */,
 				CD36D4272A7656F900069899 /* ContentView.swift in Sources */,
+				CD36D4662A7ADDB800069899 /* LocalFileManager.swift in Sources */,
 				CD36D4442A766BD100069899 /* HomeView.swift in Sources */,
 				CD36D45E2A798AFA00069899 /* CoinImageView.swift in Sources */,
 				CD36D4252A7656F900069899 /* BitCoinApp.swift in Sources */,
